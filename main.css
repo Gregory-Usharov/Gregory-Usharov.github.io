@@ -1,0 +1,34 @@
+
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  h1 { 
+    
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-size: 10vh;  
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
+  p {
+    x: 10;
+    y: 10;
+    position: fixed;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+  }
+  div{
+    margin: 0px;
+    padding: 0px;
+  }
+  #about{
+    margin: 0px;
+    padding: 0px;
+  }
