@@ -1,34 +1,41 @@
+body{
+  margin: 0;
+  height: 100%;
+  position: relative;
+}
 
-  body{
-    margin: 0px;
-    padding: 0px;
+
+.background{
+  background: radial-gradient( #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  position: fixed;
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+  margin: 0;
+  /*background-position-x: var(--xpos, 50%);
+  background-position-y: var(--ypos, 50%); */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.text{
+  font-size: 2rem;
+  color: white;
+  z-index: 10; /* make sure it's above the background */
+  position: relative;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
-  h1 { 
-    
-    display: flex;
-    color: black;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100vh;
-    font-size: 10vh;  
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
+  50% {
+    background-position: 100% 50%;
   }
-  p {
-    x: 10;
-    y: 10;
-    position: fixed;
-    color: red;
-    margin: 0px;
-    padding: 0px;
+  100% {
+    background-position: 0% 50%;
   }
-  div{
-    margin: 0px;
-    padding: 0px;
-  }
-  #about{
-    margin: 0px;
-    padding: 0px;
-  }
+}
+
+  
