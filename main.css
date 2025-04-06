@@ -5,14 +5,13 @@ body{
 }
 
 
-.background{
+#background{
   background: radial-gradient( #ee7752, #e73c7e, #23a6d5, #23d5ab);
   position: fixed;
   background-size: 400% 400%;
-  animation: gradient 8s ease infinite;
+  /*animation: gradient 8s ease infinite;*/
   margin: 0;
-  /*background-position-x: var(--xpos, 50%);
-  background-position-y: var(--ypos, 50%); */
+  background-position: var(--xpos, 100%) var(--ypos, 50%);
   top: 0;
   left: 0;
   width: 100vw;
@@ -25,7 +24,7 @@ body{
   z-index: 10; /* make sure it's above the background */
   position: relative;
 }
-
+/*
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -37,5 +36,5 @@ body{
     background-position: 0% 50%;
   }
 }
-
+*/
   
