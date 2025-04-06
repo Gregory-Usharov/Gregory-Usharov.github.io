@@ -4,7 +4,6 @@ body{
   position: relative;
 }
 
-
 #background{
   background: radial-gradient( #ee7752, #e73c7e, #23a6d5, #23d5ab);
   position: fixed;
@@ -23,17 +22,5 @@ body{
   z-index: 10; /* make sure it's above the background */
   position: relative;
 }
-/*
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-*/
+
   
