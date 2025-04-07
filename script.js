@@ -1,4 +1,5 @@
 const background = document.getElementById('background');
+//makes sure we can edit an html div from its id!
 let lastMove = 0;
 //for maintaining performance
 let targetX = 50;
@@ -11,16 +12,16 @@ document.addEventListener('mousemove', (event) => {
   const now = Date.now();
   if(now - lastMove < 50) return;
   lastMove = now;
-  targetX = 50 - ((event.clientX / window.innerWidth) - 0.5) * 30;
-  targetY = 50 - ((event.clientY / window.innerHeight) - 0.5) * 30;
-  //make this based off of window size rather than just random variables lol
+  targetX = ((event.clientX / window.innerWidth)) * 50;
+  targetY = ((event.clientY / window.innerHeight)) * 50;
 });
 
   function animateBackground() {
-    const speed = 0.03; //closer to 0 is slower,
+    const speed = 0.03; //closer to 0 is slower, closer to 1 is faster.
+
     currentX += (targetX - currentX) * speed;
     currentY += (targetY - currentY) * speed;
-    background.style.backgroundPosition = `${currentX}% ${currentY}%`;
+    background.style.backgroundPosition = `${75 - currentX}% ${75 - currentY}%`;
     requestAnimationFrame(animateBackground);
   }
 
