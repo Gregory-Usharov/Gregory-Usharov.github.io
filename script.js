@@ -12,8 +12,8 @@ document.addEventListener('mousemove', (event) => {
   const now = Date.now();
   if(now - lastMove < 50) return;
   lastMove = now;
-  targetX = ((event.clientX / window.innerWidth)) * 50;
-  targetY = ((event.clientY / window.innerHeight)) * 50;
+  targetX = ((event.clientX / window.innerWidth)) * 100;
+  targetY = ((event.clientY / window.innerHeight)) * 100;
 });
 
   function animateBackground() {
@@ -21,7 +21,7 @@ document.addEventListener('mousemove', (event) => {
 
     currentX += (targetX - currentX) * speed;
     currentY += (targetY - currentY) * speed;
-    background.style.backgroundPosition = `${75 - currentX}% ${75 - currentY}%`;
+    background.style.backgroundPosition = `${100 - currentX}% ${100 - currentY}%`;
     requestAnimationFrame(animateBackground);
   }
 
