@@ -1,27 +1,27 @@
-body{
-  margin: 0;
-  height: 100%;
-  position: relative;
-}
+  body{
+    margin: 0;
+    height: 100%;
+    position: relative;
+  }
 
-#background{
-  background: radial-gradient( #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  position: fixed;
-  background-size: 400% 400%;
-  background-position: 50% 50%;
-  margin: 0;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  /*make sure you write an alternative site incase mobile user lol*/
-}
+  #background{
+    background: radial-gradient( #2a1fc0, rgba(104, 104, 189, 0.418));
+    position: fixed;
+    background-size: 200% 200%;
+    background-position: 50% 50%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /*make sure you write an alternative site incase mobile user lol*/
+  }
 
-.text{
-  font-size: 2rem;
-  color: white;
-  z-index: 10; /* make sure it's above the background */
-  position: relative;
-}
+  .text{
+    font-size: 2rem;
+    color: white;
+    z-index: 10; /* make sure it's above the background */
+    position: relative;
+  }
 
-  
+    
