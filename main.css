@@ -5,7 +5,7 @@
   }
 
   #background{
-    background: radial-gradient(95vw at center, #2a1fc0, rgba(104, 104, 189, 0.418));
+    background: radial-gradient(circle at center,#0093E9, #80D0C7, grey);
     position: fixed;
     background-size: 200% 200%;
     background-position: 50% 50%;
