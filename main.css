@@ -2,6 +2,7 @@
     margin: 0;
     height: 100%;
     position: relative;
+
   }
 
   #background{
@@ -17,11 +18,71 @@
     /*make sure you write an alternative site incase mobile user lol*/
   }
 
-  .text{
-    font-size: 2rem;
+  .name{
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    font-weight: bold;
+    padding-top: 40vh;
+    text-align: center;
+    font-size: 5vw;
     color: white;
     z-index: 10; /* make sure it's above the background */
     position: relative;
   }
+  .aboutme{
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 1.5vw;
+    color: white;
+    z-index: 10; /* make sure it's above the background */
+    position: relative;
+  }
+  .projects{
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 2.5vw;
+    color: white;
+    z-index: 10; /* make sure it's above the background */
+    position: relative;
+  }
+  .experience{
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 2.5vw;
+    color: white;
+    z-index: 10; /* make sure it's above the background */
+    position: relative;
+    
+  }
+  .photo{
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    z-index: 10; /* make sure it's above the background */
+    position: relative;
+    
+  }
+  .contacts{
+    text-shadow: black 1px 0 5px;
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 2.5vw;
+    color: white;
+    z-index: 10; /* make sure it's above the background */
+    position: relative;
+  }
+  .sometext{
+    padding-top: 2.5vh;
+    text-align: center;
+    font-size: 1.5vw;
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 5vh;
+  }
+
 
     
